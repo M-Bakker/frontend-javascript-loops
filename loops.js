@@ -11,8 +11,11 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+const icon = '*';
 
-
+for (let i = 1; i < 6; i++) {
+    console.log(icon.repeat(i))
+}
 
 
 // ==========================================
@@ -25,14 +28,14 @@
 // klaar!
 // ==========================================
 
-// for (let i = 0; i < 5; i++) {
-//     if (i < 4) {
-//         console.log('loop...');
-//     }
-//     else {
-//         console.log('klaar!');
-//     }
-// }
+for (let i = 0; i < 5; i++) {
+    if (i < 4) {
+        console.log('loop...');
+    }
+    else {
+        console.log('klaar!');
+    }
+}
 
 
 
@@ -52,16 +55,16 @@
 // >> 9
 // ==========================================
 
-// for (let i = 0; i <9; i++) {
-//     if (i < 4) {
-//         console.log(i);
-//     }
-//     else {
-//         if (i < 6) {
-//             console.log(i);
-//         }
-//     }
-// }
+for (let i = 0; i <9; i++) {
+    if (i < 4) {
+        console.log(i);
+    }
+    else {
+        if (i < 6) {
+            console.log(i);
+        }
+    }
+}
 
 
 
